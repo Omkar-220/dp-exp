@@ -10,7 +10,7 @@ def lcs(n,m,x,y):
             return max(lcs(n,m,x-1,y),lcs(n,m,x,y-1))
         
 
-
+# following code is for the meomoization
 
 if __name__ == '__main__':
     n = ['A', 'G', 'G', 'T', 'A', 'B']
